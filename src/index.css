@@ -13,6 +13,9 @@ input {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
   align-content: center;
   border: 1px solid gray;
   border-radius: 6px;

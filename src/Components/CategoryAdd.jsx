@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
+
 const CategoryAdd = ({setCategories}) => {
     const [inputValue, setInputValue] = useState('');
     
@@ -21,6 +22,7 @@ const CategoryAdd = ({setCategories}) => {
                 value={inputValue}
                 onChange={ handleInputChange }
             />
+            <button type='submit'>Aceptar</button>
         </form>
     )
 }
